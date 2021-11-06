@@ -16,6 +16,7 @@ box-sizing: border-box;
 text-align: center;
     letter-spacing: 8px;  
     word-spacing: 4%; /* espaciado entre palabras */
+    text-shadow:9px 8px 6px #000000;
 }
 .headerPagina{
     background-image: linear-gradient (to bottom, #0a0a0a, #acbb788a);
@@ -117,7 +118,7 @@ ul  a:hover{ /* esto es para si paso el cursor sobre los link realice ciertas ac
     color: rgba(0, 46, 252, 0.452);
     font-size: 1.2rem;
     transition: 0.8s;
-   
+    text-shadow:9px 8px 6px #000000;
 }
 ul  li {
     display: inline-block;
