@@ -2,60 +2,135 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/estilos.css">
-    <meta name="keywords" content="granja, familiar, frutas, naturaleza, animales, paseo, natural ">
-    <title>Fotos</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <meta name="keywords" content="granja, familiar, frutas, naturaleza, animales, paseo, natural ">
+  <title>Fotos</title>
 </head>
 
 <body>
-    <header>
-        <h3>Galeria de fotos</h3>
-    </header>
-    <nav>
-    <ul>
-       
-            <li><a href="../index.html">Menu</a></li>
-            <li><a href="menu2.html">Historia</a></li>
-            <li><a href="menu4.html">Recetas</a></li>
-            <li><a href="menu5.html">Nuestros Productos</a>
+
+  <nav>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+      <div class="container-fluid cNav">
+        <img src="../imagenes/laquinta.png" alt="logoQuinta" class="imgLogo">
+        <a class="navbar-brand" href="../index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
+          aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarBasic">
+          <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/menu2.html">Historia</a>
             </li>
-    </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/menu3.html">Galeria de Fotos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/menu4.html">Recetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/menu5.html">Contactenos</a>
+            </li>
+
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
     </nav>
-    <hr>
-    <main>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner tFotos" >
-              <div class="carousel-item active">
-                <img src="../imagenes/foto principal.png" class="d-block w-100" alt="foto historia">
-              </div>
-              <div class="carousel-item">
-                <img src="../imagenes/WhatsApp Image 2021-10-22 at 19.01.39 (2)-min.jpeg" class="d-block w-100" alt="foto historia">
-              </div>
-              <div class="carousel-item">
-                <img src="../imagenes/WhatsApp Image 2021-10-22 at 19.01.40-min.jpeg" class="d-block w-100" alt="foto menu">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </nav>
+
+  <header>
+    <h3>Galeria de fotos</h3>
+  </header>
+  <main>
+    <div class="container cn">
+      <div class="item">
+        <img src="../imagenes/duraznos.jpeg" alt="duraznos floreciendo" class="item-img">
+        <div class="item-text">
+          <h3>Floración de duraznos</h3>
+          <p>Nuestros duraznos floreciendo en la primavera</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="../imagenes/nevada.jpeg" alt="nevada" class="item-img">
+        <div class="item-text">
+          <h3>Nuestra quinta en invierno</h3>
+          <p>Nuestros frutales resistiendo el frio del invierno</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="../imagenes/juanito.jpeg" alt="cordero juanito" class="item-img">
+        <div class="item-text">
+          <h3>Nuestro nuevo integrante</h3>
+          <p>Se llama Juanito, otro integrante de la familia</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="../imagenes/foto principal.png" alt="cosecha" class="item-img">
+        <div class="item-text">
+          <h3>Cosecha</h3>
+          <p>La quinta donde todo crece</p>
+        </div>
+      </div>
+
+
+      <div class="item">
+        <img src="../imagenes/naranjas.jpeg" alt="naranjas" class="item-img">
+        <div class="item-text">
+          <h3>Nuestras naranjas</h3>
+          <p>Naturales y jugosas</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="../imagenes/dulces.jpeg" alt="dulces" class="item-img">
+        <div class="item-text">
+          <h3>Nuestros dulces</h3>
+          <p>Dulces caseros hechos con amor</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="../imagenes/focaccia.jpeg" alt="focaccia" class="item-img">
+        <div class="item-text">
+          <h3>Focaccia</h3>
+          <p>Nuestra focaccia tradicion de Italia</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="../imagenes/stan.jpeg" alt="stan" class="item-img">
+        <div class="item-text">
+          <h3>Mas productos</h3>
+          <p>Salamines caseros</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+
+    <h6>Copyrigths || Nicolas Supparo || Contacto: supparonico@hotmail.com</h6>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
