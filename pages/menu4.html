@@ -2,79 +2,150 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/estilos.css">
-    <meta name="keywords" content="granja, familiar, frutas, naturaleza, animales, paseo, natural, recetas ">
-    <title>Recetas</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <meta name="keywords" content="granja, familiar, frutas, naturaleza, animales, paseo, natural, recetas ">
+  <title>Recetas</title>
 </head>
 
 <body class="bodyGaleria">
-    <header>
-        <h3>Recetas</h3>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Menu</a></li>
-            <li><a href="menu2.html">Historia</a></li>
-            <li><a href="menu3.html">Galeria de fotos</a></li>
-            <li><a href="menu5.html"> Nuestros Productos</a></li>
+
+  <nav class="navbar navbar-expand-xl navbar-light bg-light">
+    <div class="container-fluid cNav">
+      <img src="../imagenes/laquinta.png" alt="logoQuinta" class="imgLogo">
+      <a class="navbar-brand" href="../index.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
+        aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarBasic">
+        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/menu2.html">Historia</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/menu3.html">Galeria de Fotos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/menu4.html">Recetas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/menu5.html">Contactenos</a>
+          </li>
+
         </ul>
-    </nav>
-    <main>
-        <p>contenido</p>
-        <!-- <h3 class="tablaTitulo">Tabla de productos</h3>
-        <table class="table" border="3" cellpadding="8" cellspacing="5">
-            <tr>
-                <th>producto</th>
-                <th>precio x kg</th>
-                <th>mes de cosecha</th>
-                <th>caracteristicas nutricionales</th>
-            </tr>
-            <tr>
-                <td>limon</td>
-                <td>5$0/kg</td>
-                <td>
-                    <ul>
-                        <li>septiembre</li>
-                        <li>noviembre</li>
-                        <li>diciembre
-                        </li>
-                    </ul>
-                </td>
-                <td>vitamina c</td>
-            </tr>
-            <tr>
-                <td>sandia</td>
-                <td>$40/kg</td>
-                <td>
-                    <ul>
-                        <li>octubre</li>
-                        <li>noviembre</li>
-                        <li>diciembre</li>
-                    </ul>
-                </td>
-                <td>vitamina A/E</td>
-            </tr>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <h3>Recetas</h3>
+  </header>
+  <main>
+    <div class="accordion" id="accordionBasic">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Receta torta de manzana
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionBasic">
+          <div class="accordion-body">
+            <strong>Tiempo de preparacion 15 min.</strong> Preparación: <br>
+            Paso 1
+            Para el caramelo. Cubrir el molde elegido para cocinar la torta con azúcar (sin nada de agua) . Colocarlo
+            en la hornalla a fuego mínimo
+            <br>
+            Paso 2<br>
+            Una vez repartido por toda la base el caramelo, colocar por arriba 1 manzana cortada en laminas finitas.
+            <br>
+            Paso 3
+            <br>
+            Mezcla la harina, azúcar, huevos, leche, aceite, vainilla y agregar la otra manzana cortada en cubitos.
+            <br> Paso 4<br>
 
-            <tr>
-                <td>kiwi</td>
-                <td>$80/kg</td>
-                <td>
-                    <ul>
-                        <li>enero</li>
-                        <li>febrero</li>
-                    </ul>
-                </td>
-                <td>vitamina C/K</td>
-            </tr>
+            Colocar toda la preparación en el molde y cocina en horno mínimo por 40 minutos.
+            <br> Paso 5<br>
 
-        </table> -->
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+            Desmoldar cuando todavía este caliente para evitar que el caramelo se enfríe y se pegue.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Chipá con panceta
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionBasic">
+          <div class="accordion-body">
+            <strong>Tiempo de preparacion 20 min</strong> Preparación: <br>
+            <br> Paso 1 <br>
+            Colocar el almidón de mandioca en un bowl y mezclarlo con la sal. Rallar los quesos y mezclarlos con la
+            mandioca.
+            <br> Paso 2 <br>
+            Picar la panceta y sumarla. Derretir la margarina. Hacer un hueco en la harina de mandioca y colocar allí
+            los huevos, la margarina derretida y la leche.
+            <br> Paso 3 <br>
+            Comenzar a unir los ingredientes, sumando la leche de a poco y en cantidad suficiente como para formar una
+            masa relativamente blanda. Amasar hasta que resulte suave. Cubrir con un paño seco y dejar descansar 20
+            minutos.
+            <br> Paso 4 <br>
+            Tomar porciones y dar forma de bollitos, rosquitas, panes alargados o lo que más le guste. Disponer las
+            piezas sobre placas apenas enmantecadas y cocinar en horno precalentado, caliente, a 200 º, unos minutos,
+            hasta que apenas estén doradas.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Receta de Volcán de Nutella
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree"
+          data-bs-parent="#accordionBasic">
+          <div class="accordion-body">
+            <strong>Tiempo de preparacion 22 min.</strong> Preparación: <br>
+            <br> Paso 1 <br>
+            Integrar los huevos y las yemas con la Nutella.
+            <br> Paso 2 <br>
+            Agregar la crema de leche y por último la harina. Guardar en manga.
+            <br> Paso 3 <br>
+            Enmantecar y enharinar moldes (aproximadamente de 8/10 cm de alto) y precalentar el horno a 180 °.
+            <br> Paso 4 <br>
+            Dividir la mezcla en 4 moldes.
+            <br> Paso 5 <br>
+            Cocinar durante 10 minutos. Retirar y acompañar con helado de americana o vainilla.
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <h6>Copyrigths || Nicolas Supparo || Contacto: supparonico@hotmail.com</h6>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
